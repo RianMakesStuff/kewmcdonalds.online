@@ -1,0 +1,10 @@
+jQuery(document).ready(function(){
+
+  if (jQuery("input[name='details[page_num]']").val() == 2) {
+    jQuery(".form-radios input[type='radio']").click(function(){
+      jQuery("#edit-next").trigger("click")
+    });
+  }
+
+});
+
